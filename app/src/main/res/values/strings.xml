@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">El gato</string>
+    <string name="txt1">Player: 0</string>
+    <string name="txt2">CPU: 0</string>
+    <string name="btn">RESET</string>
+    <string name="btns">btn</string>
+</resources>
