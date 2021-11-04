@@ -48,8 +48,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         if (((Button) view).getText().toString().equals("")){
-            if (playerTurn)((Button) view).setText("X");
-            roundC++;
+            if (playerTurn){
+                ((Button) view).setText("X");
+                roundC++;
+            }
             if(verificarWin()){
                 if(playerTurn){
                     playerPoints++;
